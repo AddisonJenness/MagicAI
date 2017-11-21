@@ -17,6 +17,7 @@ public class App {
 		Player p2 = new Player();
 		ArrayList<Card> p1d = new ArrayList<Card>();
 		ArrayList<Card> p2d = new ArrayList<Card>();
+		//p1 Cards
 		Card Forest = new Card("Forest", Type.LAND, 0, 0, 0, null);
 		Card TerainEle = new Card("TerainEle",Type.CREATURE, 3, 2, 2, null);
 		Card AlpineGrizz = new Card("AlpineGrizz",Type.CREATURE, 4, 2, 3, null);
@@ -29,6 +30,21 @@ public class App {
 		Card LargerThan = new Card("LargerThan",Type.SORCERY, 0, 0, 2, Ability.PUMP);
 		Card Explore = new Card("Explore",Type.SORCERY, 0, 0, 2, Ability.EXPLORE);
 		Card PreyUpon = new Card("PreyUpon",Type.SORCERY, 0, 0, 1, Ability.FIGHT);
+		
+		//p2 Cards
+		Card Mountain = new Card("Mountain", Type.LAND, 0,0,0,null);
+		Card Falkenrath = new Card("Falkenrath Reaver",Type.CREATURE, 2, 2, 2, null);
+		Card Frendied = new Card("Frenzied Raptor",Type.CREATURE, 4, 2, 3, null);
+		Card Hulking = new Card("Hulking Devil",Type.CREATURE, 5, 2, 4, null);
+		Card Hyena = new Card("Hyena Pack",Type.CREATURE, 3, 4, 4, null);
+		Card Earth = new Card("Earth Elemental",Type.CREATURE, 4, 5, 5, null);
+		Card Spitting = new Card("Spitting Earth", Type.SORCERY, 0, 0, 2, Ability.BURN_CREATURE);
+		Card Blazing = new Card("Blazing Volly", Type.SORCERY, 0, 0, 1, Ability.BURN_CREATURE);
+		Card Arrow = new Card("Arrow Storm", Type.SORCERY,0,0,5,Ability.BURN);
+		Card Pillar = new Card("Pillar of Flame",Type.SORCERY, 0, 0, 1, Ability.BURN);
+		Card IncinFlow = new Card("Incendiary Flow", Type.SORCERY, 0, 0, 2, Ability.BURN);
+		
+		
 		//2
 		for(int i=0; i<2; i++) {
 		p1d.add(TuskedColos);
