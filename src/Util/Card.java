@@ -3,7 +3,6 @@ package Util;
 
 public class Card implements Comparable<Card>{
 
-	private static final long serialVersionUID = 1L;
 
 	public enum Type {CREATURE, LAND, SORCERY }; //Put variable each number in Rank
 	public int Power;
