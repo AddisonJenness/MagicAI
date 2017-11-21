@@ -11,7 +11,7 @@ public class GameLogic {
 	
 	ArrayList<Card> p1Field = new ArrayList<Card>();
 	ArrayList<Card> p2Field = new ArrayList<Card>();
-	
+	///////
 	
 	Card [][] combatArray = new Card[10][5];
 	
