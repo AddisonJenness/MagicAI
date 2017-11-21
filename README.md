@@ -11,3 +11,4 @@ Tusked Colossodon 6 6/5 2
 Larger than Life [spell] 4
 Explore [spell] 4
 Wild Instincts [spell] 2
+FALLFAKE KING
