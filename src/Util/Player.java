@@ -12,6 +12,7 @@ public class Player{
 	private ArrayList<Card> grave;
 	private int life = 20;
 	private String name;
+	private int unplayedLand = 1;
 	
 	public ArrayList<Card> getHand() {
 		return hand;

@@ -8,6 +8,7 @@ public class GameLogic {
 	int phase = 0; //0 = draw, 1 = main1, 2 = declareattacker, 3 = declareblockers,
 		// 4 calculation 5 mp2 
 	int playerturn = 0; //1 = left, 2 = right
+	
 	ArrayList<Card> p1Field = new ArrayList<Card>();
 	ArrayList<Card> p2Field = new ArrayList<Card>();
 	
