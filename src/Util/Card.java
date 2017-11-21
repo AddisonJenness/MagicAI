@@ -9,7 +9,7 @@ public class Card implements Comparable<Card>{
 	public int Power;
 	public int Toughness;
 	public int Cost;
-	public enum Ability {PUMP, EXPLORE, FIGHT};
+	public enum Ability {PUMP, EXPLORE, FIGHT, BURN_CREATURE, BURN};
 	public boolean Tapped =false;
 	public int Damage =0;
 
