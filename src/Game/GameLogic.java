@@ -16,7 +16,7 @@ public class GameLogic {
 	Card [][] combatArray = new Card[10][5];
 	
 	public void playPermanent (Card perm, int playerturn ) {
-		//tap lands = cost
+		
 		//remove perm from hand
 		 if (playerturn == 1) {p1Field.add(perm);}
 	else if (playerturn == 2) {p2Field.add(perm);}
