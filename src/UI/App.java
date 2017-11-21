@@ -68,7 +68,10 @@ public class App {
 		System.out.println(p1.getHand().get(i).toString()+"\n");
 		}
 		System.out.println("Player 2 Hand");
-		for(int i=0;)
+		for(int i=0; i<p2.getHand().size(); i++) {
+			
+		}
+		
 		}
 
 }
