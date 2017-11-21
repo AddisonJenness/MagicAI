@@ -5,15 +5,22 @@ public class Card implements Comparable<Card>{
 
 
 	public enum Type {CREATURE, LAND, SORCERY }; //Put variable each number in Rank
+	public String Name;
 	public int Power;
 	public int Toughness;
 	public int Cost;
-	public enum Ability {};
+	public enum Ability {PUMP, EXPLORE, FIGHT};
+	public boolean Tapped =false;
+	public int Damage =0;
 
 	private Type type;//set variable Rank as rank
 	private Ability ability;//set variable Suit as suit
 
-	public Card(Type type, int power, int toughness, int cost, Ability ability) { //Get rank and suit to set card
+	public Card() {
+		
+	}
+	public Card(String name, Type type, int power, int toughness, int cost, Ability ability) { //Get rank and suit to set card
+		this.Name= name;
 		this.type = type;
 		this.Power = power;
 		this.Toughness = toughness;
@@ -62,7 +69,8 @@ public class Card implements Comparable<Card>{
 	}
 
 	public String toString() {
-		String a = (" Type : "+this.type+
+		String a = (" Name : "+this.Name+
+				"\n Type : "+this.type+
 				"\n Power : "+this.Power+
 				"\n Toughness : "+this.Toughness+
 				"\n Cost : "+this.Cost+
