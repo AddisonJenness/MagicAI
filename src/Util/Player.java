@@ -8,29 +8,18 @@ public class Player{
 	
 	
 	private ArrayList<Card> hand;
-	private ArrayList<Card> deck;
-	private ArrayList<Card> grave;
+	//private ArrayList<Card> deck;
+	//private ArrayList<Card> grave;
+	private ArrayList<InPlayCard> field= new ArrayList<InPlayCard>();
 	private int life = 20;
 	private String name;
-	private int unplayedLand = 1;
+	public int totalWins = 0;
 	
 	public ArrayList<Card> getHand() {
 		return hand;
 	}
 	public void setHand(ArrayList<Card> hand) {
 		this.hand = hand;
-	}
-	public ArrayList<Card> getDeck() {
-		return deck;
-	}
-	public void setDeck(ArrayList<Card> deck) {
-		this.deck = deck;
-	}
-	public ArrayList<Card> getGrave() {
-		return grave;
-	}
-	public void setGrave(ArrayList<Card> grave) {
-		this.grave = grave;
 	}
 	public int getLife() {
 		return life;
@@ -44,8 +33,16 @@ public class Player{
 	public void setName(String name) {
 		this.name = name;
 	}
+	public ArrayList<InPlayCard> getField() {
+		return field;
+	}
 	
-	
+	public void setField(ArrayList<InPlayCard> field) {
+		this.field = field;
+	}
+	public void incTotalWins() {
+		this.totalWins++;
+	}
 	
 	
 

@@ -10,12 +10,15 @@ public class Card implements Comparable<Card>{
 	public int Toughness;
 	public int Cost;
 	public enum Ability {PUMP, EXPLORE, FIGHT, BURN_CREATURE, BURN};
-	public boolean Tapped =false;
-	public int Damage =0;
+	public Type type;//set variable Rank as rank
+	public Ability ability;//set variable Suit as suit
 
-	private Type type;//set variable Rank as rank
-	private Ability ability;//set variable Suit as suit
-
+	public String getName() {
+		return Name;
+	}
+	public void setName(String name) {
+		Name = name;
+	}
 	public Card() {
 		
 	}
@@ -77,11 +80,14 @@ public class Card implements Comparable<Card>{
 				"\n Ability : "+this.ability);
 		return a;
 	}
-
 	@Override
 	public int compareTo(Card o) {
 		// TODO Auto-generated method stub
 		return 0;
 	}
 
-}
+
+
+	}
+
+
