@@ -1,6 +1,6 @@
 # MagicAI
 ## Goal of the Project
-The Magic: the Gathering trading card game is known to be a complex game, and one of the phases of the game, combat, involves complex decision-making. Similarly to chess, it can involve predicting decisions an opponent can make. In this regard, a player must "learn" the battlefield, processing and reprocessing possible decisions. This project aims to simulate the thought process.
+The Magic: the Gathering trading card game is known to be a complex game, and one of the phases of the game, combat, involves complex decision-making. Similarly to chess, it can involve predicting decisions an opponent can make. In this regard, a player must "learn" the battlefield, processing and reprocessing possible decisions. This project aims to simulate the thought process. The project utilizes Java and JESS, a rules-based LISP-like language.
 
 ## How combat works to the leyman
 In Magic, players control creatures that fight for them. The turn player chooses which creatures he or she attacks with, if any, and the opposing player chooses which of their creatures block any attacking creatures. Each paired off set of creatures deal damage to each other and the unblocked creatures, if any, deal their damage to the opposing player.
